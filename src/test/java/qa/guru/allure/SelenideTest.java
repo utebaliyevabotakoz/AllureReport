@@ -18,7 +18,7 @@ public class SelenideTest {
 
         open("https://github.com");
 
-        $(".header-search-input").click();
+        $(".header-search-inputt").click();
         $(".header-search-input").sendKeys("eroshenkoam/allure-example");
         $(".header-search-input").submit();
 
