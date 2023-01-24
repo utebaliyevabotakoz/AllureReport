@@ -1,6 +1,8 @@
 name: Test
 
 on: workflow_dispatch
+  
+  run chmod +x ./gradlew
 
 jobs:
   test:
